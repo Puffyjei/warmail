@@ -3,32 +3,98 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Warmail - Correo libre</title>
+  <title>Warmail - Tu correo libre</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       background: linear-gradient(to right, #0072ff, #00c6ff);
       color: white;
+      margin: 0;
+      padding: 0;
       text-align: center;
-      padding: 50px;
     }
-    h1 {
-      font-size: 3em;
-      margin-bottom: 0.2em;
+    header {
+      background-color: rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      font-size: 2em;
     }
-    p {
-      font-size: 1.3em;
+    main {
+      padding: 40px 20px;
     }
-    .soon {
-      margin-top: 40px;
+    input[type="text"] {
+      padding: 10px;
+      font-size: 1em;
+      border: none;
+      border-radius: 6px 0 0 6px;
+      width: 200px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .email-domain {
+      background-color: white;
+      color: black;
+      padding: 10px;
+      border-radius: 0 6px 6px 0;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 1em;
+      background-color: #003366;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    section {
+      background-color: rgba(255, 255, 255, 0.1);
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 500px;
+      border-radius: 10px;
+      text-align: left;
+    }
+    h2 {
+      border-bottom: 1px solid white;
+      padding-bottom: 10px;
+    }
+    .message {
+      background-color: rgba(0,0,0,0.3);
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 6px;
+    }
+    .chat-placeholder {
       font-style: italic;
-      opacity: 0.8;
+      opacity: 0.7;
     }
   </style>
 </head>
 <body>
-  <h1>Bienvenido a Warmail</h1>
-  <p>Correo @warmail gratuito para todos</p>
-  <p class="soon">🚧 En construcción: plataforma de mensajería integrada...</p>
+  <header>
+    Warmail – Tu correo libre y mensajería sin límites
+  </header>
+  <main>
+    <div class="form-group">
+      <input type="text" placeholder="Tu nombre de usuario" />
+      <span class="email-domain">@warmail</span>
+    </div>
+    <button>Crear mi correo</button>
+    <button>Iniciar sesión</button>
+
+    <section>
+      <h2>📬 Bandeja de entrada</h2>
+      <div class="message">📩 Nuevo mensaje de: admin@warmail – Bienvenido a Warmail</div>
+      <div class="message">📩 No olvides configurar tu nueva cuenta</div>
+    </section>
+
+    <section>
+      <h2>💬 Chat de Warmail</h2>
+      <p class="chat-placeholder">Messenger en desarrollo... Próximamente podrás chatear con otros usuarios @warmail</p>
+    </section>
+  </main>
 </body>
 </html>
