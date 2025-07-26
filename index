@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Warmail - Correo libre</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #0072ff, #00c6ff);
+      color: white;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+    }
+    p {
+      font-size: 1.3em;
+    }
+    .soon {
+      margin-top: 40px;
+      font-style: italic;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenido a Warmail</h1>
+  <p>Correo @warmail gratuito para todos</p>
+  <p class="soon">🚧 En construcción: plataforma de mensajería integrada...</p>
+</body>
+</html>
